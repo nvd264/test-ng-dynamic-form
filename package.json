@@ -1,0 +1,30 @@
+{
+  "name": "@nvd264/ng-dynamic-form",
+  "version": "1.0.1",
+  "description": "A simple library for dynamic form to be use with Angular Material",
+  "author": "Dong Nguyen",
+  "keywords": [
+    "angular",
+    "dynamic-form",
+    "angular material",
+    "javascript",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  },
+  "main": "bundles/nvd264-ng-dynamic-form.umd.js",
+  "module": "fesm5/nvd264-ng-dynamic-form.js",
+  "es2015": "fesm2015/nvd264-ng-dynamic-form.js",
+  "esm5": "esm5/nvd264-ng-dynamic-form.js",
+  "esm2015": "esm2015/nvd264-ng-dynamic-form.js",
+  "fesm5": "fesm5/nvd264-ng-dynamic-form.js",
+  "fesm2015": "fesm2015/nvd264-ng-dynamic-form.js",
+  "typings": "nvd264-ng-dynamic-form.d.ts",
+  "metadata": "nvd264-ng-dynamic-form.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
