@@ -1,8 +1,8 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('rxjs/operators'), require('rxjs'), require('@angular/forms'), require('@angular/common'), require('@angular/platform-browser/animations'), require('@angular/material'), require('@angular/material/progress-spinner'), require('@angular/core')) :
-    typeof define === 'function' && define.amd ? define('@nvd264/ng-dynamic-form', ['exports', 'rxjs/operators', 'rxjs', '@angular/forms', '@angular/common', '@angular/platform-browser/animations', '@angular/material', '@angular/material/progress-spinner', '@angular/core'], factory) :
-    (factory((global.nvd264 = global.nvd264 || {}, global.nvd264['ng-dynamic-form'] = {}),global.rxjs.operators,global.rxjs,global.ng.forms,global.ng.common,global.ng.platformBrowser.animations,global.ng.material,global.ng.material['progress-spinner'],global.ng.core));
-}(this, (function (exports,operators,rxjs,forms,common,animations,material,progressSpinner,i0) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('rxjs/operators'), require('rxjs'), require('@angular/forms'), require('@angular/common'), require('@angular/material'), require('@angular/material/progress-spinner'), require('@angular/core')) :
+    typeof define === 'function' && define.amd ? define('@nvd264/ng-dynamic-form', ['exports', 'rxjs/operators', 'rxjs', '@angular/forms', '@angular/common', '@angular/material', '@angular/material/progress-spinner', '@angular/core'], factory) :
+    (factory((global.nvd264 = global.nvd264 || {}, global.nvd264['ng-dynamic-form'] = {}),global.rxjs.operators,global.rxjs,global.ng.forms,global.ng.common,global.ng.material,global.ng.material['progress-spinner'],global.ng.core));
+}(this, (function (exports,operators,rxjs,forms,common,material,progressSpinner,i0) { 'use strict';
 
     /*! *****************************************************************************
     Copyright (c) Microsoft Corporation. All rights reserved.
@@ -1214,7 +1214,7 @@
                             forms.FormsModule,
                             forms.ReactiveFormsModule,
                             common.CommonModule,
-                            animations.BrowserAnimationsModule,
+                            // BrowserAnimationsModule,
                             material.MatInputModule,
                             material.MatSelectModule,
                             material.MatCheckboxModule,

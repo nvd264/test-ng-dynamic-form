@@ -1,7 +1,6 @@
 import { tap, debounceTime, distinctUntilKeyChanged, exhaustMap, map, switchMap, takeUntil } from 'rxjs/operators';
 import { isObservable, Subject } from 'rxjs';
 import { CommonModule } from '@angular/common';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule, MatCheckboxModule, MatRadioModule, MatSelectModule, MatButtonModule } from '@angular/material';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { Validators, FormControl, FormGroup, FormArray, ReactiveFormsModule, FormsModule } from '@angular/forms';
@@ -1188,7 +1187,7 @@ var DynamicFormModule = /** @class */ (function () {
                         FormsModule,
                         ReactiveFormsModule,
                         CommonModule,
-                        BrowserAnimationsModule,
+                        // BrowserAnimationsModule,
                         MatInputModule,
                         MatSelectModule,
                         MatCheckboxModule,
